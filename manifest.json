@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Response Downloader",
+    "version": "1.0",
+    "permissions": ["webRequest", "downloads", "declarativeNetRequestWithHostAccess","declarativeNetRequest","declarativeNetRequestFeedback"],
+    "host_permissions": ["https://akb48-tp.tenten.tw/*","https://firestore.googleapis.com/*"],
+    "background": {
+        "service_worker": "background.js"
+    }
+  }
